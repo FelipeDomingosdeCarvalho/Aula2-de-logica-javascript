@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let macas = parseInt(prompt("quantidades de maçãs que você deseja comprar: "))
+        let ValorMacas1 = macas * 3.5
+        let ValorMacas2 = macas * 2.5
+
+        if(macas < 12){
+            document.write("você pediu "+ macas +" maçã(s) "+"<br>"+"Como você pediu menos do que 12 maçãs o valor da(s) maçã(s) sera(ão) de: " + ValorMacas1.toFixed(2) + " reais")
+        }else{
+        document.write("você pediu "+ macas +" maçã(s) "+"<br>"+"Como você pediu 12 ou mais maçãs o valor das maçãs será de: " + ValorMacas2.toFixed(2) + " reais")       
+    }
+
+    </script>
+</body>
+</html>
